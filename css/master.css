@@ -1,0 +1,39 @@
+
+.row{
+	margin-top: 100px;
+}
+.with-chevron[aria-expanded='false'] i {
+  display: block;
+  transform: rotate(180deg) !important;
+  color:white;
+}
+
+.display-4{
+	margin-bottom: 100px;
+}
+
+.row button{
+	background-color: #CCFFFF;
+	color: black;
+	border-width: 1px;
+	border-color: black;
+}
+.row .d-flex{
+	color: #333333;
+	
+}
+.row .d-flex:hover{
+	color: white;
+	transition: .5s;
+	
+}
+
+
+.row button:hover{
+	background-color: background-color: #f9484a;
+	background-image: linear-gradient(315deg,  #fbd72b 0%, #F96866 74%);
+	color: white;
+	transition: 1s;
+	
+}
+
