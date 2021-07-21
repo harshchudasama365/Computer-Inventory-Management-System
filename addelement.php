@@ -16,7 +16,7 @@ $desc    = $_POST['desc'];
 
 echo $table.$labno.$serial.$name.$brand.$cost.$dop.$desc;
 
-$con = new mysqli("localhost","root","Nnpph@1999","CSM");
+$con = new mysqli("localhost","root","password","CSM");
 
 switch ($labno) {
     case 'L01':
