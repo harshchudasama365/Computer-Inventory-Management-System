@@ -4,7 +4,7 @@
    $password1=$_POST["password1"];
    $pass_hash= password_hash($password1,PASSWORD_DEFAULT);
    $user_id1=$_POST["user_id1"];
-    $con=mysqli_connect("localhost","root","Nnpph@1999","CSM");
+    $con=mysqli_connect("localhost","root","password","CSM");
 
     if($con){
            
