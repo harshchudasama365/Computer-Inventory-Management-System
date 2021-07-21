@@ -7,7 +7,7 @@ session_start();
      $pass_hash= password_hash($password2,PASSWORD_DEFAULT);
      $user_id2=$_POST["user_id2"];
 
-    $con=mysqli_connect("localhost","root","Nnpph@1999","CSM");
+    $con=mysqli_connect("localhost","root","password","CSM");
 
     
         if($con){ 
