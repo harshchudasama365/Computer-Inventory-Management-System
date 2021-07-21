@@ -25,7 +25,7 @@ if(!$_SESSION['login']){ ?>
 $lab = "labs";
 $table="product";
 
-$con = new mysqli("localhost","root","Nnpph@1999","CSM");
+$con = new mysqli("localhost","root","password","CSM");
 
 if($con)
 {
